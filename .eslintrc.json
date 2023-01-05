@@ -9,6 +9,11 @@
     "eslint-config-prettier",
     "plugin:prettier/recommended"
   ],
+  "settings": {
+    "next": {
+      "rootDir": ["examples/*", "."]
+    }
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true

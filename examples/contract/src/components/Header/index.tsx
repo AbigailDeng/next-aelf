@@ -49,7 +49,7 @@ function MDHeader({ selectedHref }: { selectedHref: string[] }) {
         closable={false}
         onClose={() => setVisible(false)}
         visible={visible}>
-        <CommonImage src={logo} className={styles['drawer-logo']} />
+        <CommonImage src={logo} className={styles['drawer-logo']} alt="drawer-logo"/>
         {navList.map(({ title, href }, k) => (
           <div
             className={clsx('flex-row-between', 'flex-row-center', 'cursor-pointer', styles['mobile-button'], {
